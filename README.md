@@ -55,3 +55,57 @@ extension=mysqli
 extension=pdo_mysql
 extension=json
 extension=session
+
+🚀 راه‌اندازی پروژه (گام‌به‌گام)
+مرحله ۱: دانلود و نصب XAMPP
+از سایت Apache Friends XAMPP را دانلود و نصب کنید
+
+بعد از نصب، Apache و MySQL را روشن کنید
+
+مرحله ۲: قرار دادن پروژه در مسیر درست
+پروژه را در مسیر زیر قرار دهید:
+
+text
+C:\xampp\htdocs\one-target\     (ویندوز)
+/opt/lampp/htdocs/one-target/   (لینوکس)
+/Applications/XAMPP/htdocs/one-target/ (مک)
+مرحله ۳: ایجاد دیتابیس
+مرورگر را باز کنید و به آدرس زیر بروید:
+
+text
+http://localhost/phpmyadmin
+روی New کلیک کنید و یک دیتابیس جدید به نام one_target_db بسازید
+
+Collation: utf8mb4_persian_ci
+
+روی تب Import کلیک کنید و فایل database.sql را آپلود کنید
+
+روی Go کلیک کنید
+
+📌 حساب ادمین پیش‌فرض:
+
+ایمیل: admin@onetarget.com
+
+رمز عبور: password
+-----------------------------------------------------------------------------------
+
+🤖 راه‌اندازی هوش مصنوعی 
+۱. دانلود و نصب LM Studio
+از سایت LM Studio آخرین نسخه را دانلود و نصب کنید.
+
+۲. دانلود مدل
+LM Studio را باز کنید
+
+به برگه Search بروید
+
+مدل gemma-3n-e4b-instruct-6.9b را جستجو و دانلود کنید
+
+مدل را Load کنید
+
+۳. روشن کردن سرور LM Studio
+در LM Studio، به برگه Local Server بروید
+
+روی Start Server کلیک کنید
+
+آدرس سرور: http://127.0.0.1:1234
+
