@@ -49,7 +49,7 @@
 
 ### 2️⃣ اکستنشن‌های PHP (فعال بودن در php.ini)
 
-```ini
+
 extension=curl
 extension=mysqli
 extension=pdo_mysql
