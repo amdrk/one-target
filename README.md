@@ -99,26 +99,13 @@ C:\xampp\htdocs\one-target\     (ویندوز)
 ایمیل: admin@onetarget.com
 رمز عبور: password
 
-### مرحله ۴: پیکربندی فایل‌ها
-
-مسیر فایل‌ها را در صورت نیاز تغییر دهید:
-
-در js/main.js (خط ۱):
-const API_URL = '/one-target/backend/index.php';
-
-در backend/index.php (خط ۱۶-۱۹):
-$host = 'localhost';
-$dbname = 'one_target_db';
-$username = 'root';
-$password = '';  // اگر رمز داری، اینجا وارد کن
-
-### مرحله ۵: اجرای سایت
+#اجرای سایت
 
 مرورگر را باز کنید و به آدرس زیر بروید:
 
 http://localhost/one-target/index.html
 
----
+
 
 ## 🤖 راه‌اندازی هوش مصنوعی (اختیاری)
 
